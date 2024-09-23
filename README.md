@@ -21,6 +21,6 @@ U-Net is a convolutional neural network (CNN) architecture specifically designed
 <h4>Autonomous Driving</h4>: Segmenting road lanes, pedestrians, and other objects in images captured by vehicle cameras.
 Advantages of U-Net:
 
-Efficient: U-Net is computationally efficient compared to other segmentation architectures.
+ Efficient: U-Net is computationally efficient compared to other segmentation architectures.
 Accurate: It has demonstrated excellent performance in various image segmentation tasks.
 Versatile: U-Net can be adapted to different image sizes and segmentation problems.
