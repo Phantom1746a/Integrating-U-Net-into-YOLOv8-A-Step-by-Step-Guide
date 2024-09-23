@@ -35,3 +35,11 @@ https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Gui
 The combination of YOLO and U-Net offers a powerful and versatile approach to computer vision tasks that require both object detection and instance segmentation. By leveraging YOLO's speed and accuracy in object detection and U-Net's ability to generate precise instance segmentation masks, you can achieve improved accuracy, enhanced understanding, and a wider range of applications. This integrated model is particularly useful for tasks like autonomous driving, medical image analysis, remote sensing, and robotics, where understanding the shapes and positions of objects is crucial.
 
   ![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
+
+<h1>Follow the following steps<h1/>
+<h3>Import necessary modules</h3>
+ Import the required modules for YOLOv8, U-Net, and PyTorch.
+<h3>Load YOLOv8 model:</h3> 
+Load the YOLOv8 model from the specified YAML configuration file.
+
+  
