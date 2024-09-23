@@ -28,3 +28,4 @@ Versatile: U-Net can be adapted to different image sizes and segmentation proble
 
 <h1>You Only Look Once (YOLO)</h1>
 YOLO (You Only Look Once) is a state-of-the-art object detection system. Unlike traditional object detection methods that scan images multiple times,  YOLO divides an image into a grid and predicts both bounding boxes and class probabilities for each cell in a single pass.  This makes it significantly faster than other methods. YOLO is known for its speed and accuracy, making it suitable for real-time applications.
+![YoloModel](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/Untitled%20design.png)
