@@ -37,17 +37,17 @@ The combination of YOLO and U-Net offers a powerful and versatile approach to co
   ![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
 
 <h1>Follow the following steps<h1/>
-<h3>Import necessary modules</h3>
+<h3>1. Import necessary modules</h3>
  Import the required modules for YOLOv8, U-Net, and PyTorch.
-<h3>Load YOLOv8 model:</h3> 
+<h3>2. Load YOLOv8 model:</h3> 
 Load the YOLOv8 model from the specified YAML configuration file.
-<h3>Replace detection head</h3>
+<h3>3. Replace detection head</h3>
 Replace the last layer of the YOLOv8 model with the U-Net model. Ensure that the input and output channels match.
-<h3>Define loss function</h3>
+<h3>4. Define loss function</h3>
 Define a combined loss function that calculates both the detection loss and segmentation loss. You can adjust the weights as needed.
-<h3>Define optimizer</h3>
+<h3>5. Define optimizer</h3>
 Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
-<h3>Training loop</h3>
+<h3>6. Training loop</h3>
 
 + Iterate over the training dataset.
 
