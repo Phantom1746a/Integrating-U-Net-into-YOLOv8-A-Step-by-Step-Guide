@@ -48,12 +48,12 @@ Define a combined loss function that calculates both the detection loss and segm
 <h3>Define optimizer</h3>
 Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
 <h3>Training loop</h3>
-* Iterate over the training dataset.
-* Zero out the gradients.
-* Forward pass: Pass the input batch through the model to get the predicted outputs.
-* Calculate losses: Calculate the detection loss and segmentation loss.
-* Backward pass: Compute the gradients using backpropagation.
-* Update weights: Update the model's weights using the optimizer.
++ Iterate over the training dataset.
++ Zero out the gradients.
++ Forward pass: Pass the input batch through the model to get the predicted outputs.
++ Calculate losses: Calculate the detection loss and segmentation loss.
++ Backward pass: Compute the gradients using backpropagation.
++ Update weights: Update the model's weights using the optimizer.
 
 
 
