@@ -82,7 +82,7 @@ Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
 
 + Model architecture: You may need to adjust the U-Net architecture to match the specific requirements of your task
 
-<h1>Below is the Code</h1>
+<h1>Below is the Code Snippet</h1>
 
 ![YOLO_UNETl](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/UNET%2BYOLO_code.png)
 
