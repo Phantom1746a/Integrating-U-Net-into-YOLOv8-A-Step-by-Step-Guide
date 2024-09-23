@@ -84,7 +84,7 @@ Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
 
 <h1>Below is the Code</h1>
 
-![YOLO_UNETl](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
+![YOLO_UNETl](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/UNET%2BYOLO_code.png)
 
 
 
