@@ -25,6 +25,8 @@ Advantages of U-Net:
 Accurate: It has demonstrated excellent performance in various image segmentation tasks.
 Versatile: U-Net can be adapted to different image sizes and segmentation problems.
 ![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/u-net-architecture.png)
-![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/YOLO.png)
+
 <h1>You Only Look Once (YOLO)</h1>
 YOLO (You Only Look Once) is a state-of-the-art object detection system. Unlike traditional object detection methods that scan images multiple times,  YOLO divides an image into a grid and predicts both bounding boxes and class probabilities for each cell in a single pass.  This makes it significantly faster than other methods. YOLO is known for its speed and accuracy, making it suitable for real-time applications.
+
+![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/YOLO.png)
