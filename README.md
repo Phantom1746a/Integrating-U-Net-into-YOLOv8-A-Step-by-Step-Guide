@@ -24,3 +24,4 @@ Advantages of U-Net:
  Efficient: U-Net is computationally efficient compared to other segmentation architectures.
 Accurate: It has demonstrated excellent performance in various image segmentation tasks.
 Versatile: U-Net can be adapted to different image sizes and segmentation problems.
+![Unet Model](image_url)
