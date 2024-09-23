@@ -41,5 +41,21 @@ The combination of YOLO and U-Net offers a powerful and versatile approach to co
  Import the required modules for YOLOv8, U-Net, and PyTorch.
 <h3>Load YOLOv8 model:</h3> 
 Load the YOLOv8 model from the specified YAML configuration file.
+<h3>Replace detection head</h3>
+Replace the last layer of the YOLOv8 model with the U-Net model. Ensure that the input and output channels match.
+<h3>Define loss function</h3>
+Define a combined loss function that calculates both the detection loss and segmentation loss. You can adjust the weights as needed.
+<h3>Define optimizer</h3>
+Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
+<h3>Training loop</h3>
+*Iterate over the training dataset.
+*Zero out the gradients.
+*Forward pass: Pass the input batch through the model to get the predicted outputs.
+*Calculate losses: Calculate the detection loss and segmentation loss.
+*Backward pass: Compute the gradients using backpropagation.
+*Update weights: Update the model's weights using the optimizer.
+
+
+
 
   
