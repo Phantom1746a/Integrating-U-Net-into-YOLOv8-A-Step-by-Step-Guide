@@ -29,12 +29,12 @@ Versatile: U-Net can be adapted to different image sizes and segmentation proble
 <h1>You Only Look Once (YOLO)</h1>
 YOLO (You Only Look Once) is a state-of-the-art object detection system. Unlike traditional object detection methods that scan images multiple times,  YOLO divides an image into a grid and predicts both bounding boxes and class probabilities for each cell in a single pass.  This makes it significantly faster than other methods. YOLO is known for its speed and accuracy, making it suitable for real-time applications.
 
-![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/YOLO.png)
+![YOLO](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/YOLO.png)
 https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png
 <h1>Benifits  of adding U-net Model To YOLO</h1>
 The combination of YOLO and U-Net offers a powerful and versatile approach to computer vision tasks that require both object detection and instance segmentation. By leveraging YOLO's speed and accuracy in object detection and U-Net's ability to generate precise instance segmentation masks, you can achieve improved accuracy, enhanced understanding, and a wider range of applications. This integrated model is particularly useful for tasks like autonomous driving, medical image analysis, remote sensing, and robotics, where understanding the shapes and positions of objects is crucial.
 
-  ![Unet Model](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
+  ![YOLO_UNETl](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
 
 <h1>Follow the following steps<h1/>
 <h3>1. Import necessary modules</h3>
@@ -61,6 +61,30 @@ Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
 
 + Update weights: Update the model's weights using the optimizer.
 
+<h3>7. Inference:</h3>
+
++ Load an image.
+
++ Pass the image through the model to get the results.
+
++ Extract the detected objects and segmentation mask.
+
++ Process the results as needed.
+
+<h2>Important Consideration</h2>
++ Dataset: Ensure you have a suitable dataset with both object detection and instance segmentation annotations.
+
++ Hyperparameters: Experiment with different hyperparameters (e.g., learning rate, batch size, weight decay) to optimize performance.
+
++ Evaluation metrics: Use appropriate metrics to evaluate the model's performance, such as mAP for object detection and IoU for instance segmentation.
+
++ Data augmentation: Consider using data augmentation techniques (e.g., flipping, rotation, scaling) to improve model robustness.
+
++ Model architecture: You may need to adjust the U-Net architecture to match the specific requirements of your task
+
+<h1>Below is the Code</h1>
+
+![YOLO_UNETl](https://github.com/Phantom1746a/Integrating-U-Net-into-YOLOv8-A-Step-by-Step-Guide/blob/main/-NET.png)
 
 
 
