@@ -48,6 +48,7 @@ Define a combined loss function that calculates both the detection loss and segm
 <h3>Define optimizer</h3>
 Choose an appropriate optimizer (e.g., Adam, SGD) and set the learning rate.
 <h3>Training loop</h3>
+
 + Iterate over the training dataset.
 
 + Zero out the gradients.
